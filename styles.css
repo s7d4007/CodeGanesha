@@ -1,0 +1,167 @@
+body{
+    background: linear-gradient(to right,rgb(255, 255, 120),yellow,rgb(255, 57, 57),red);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: contain;
+    margin: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    background-color:brown;
+    color: white;
+    border-radius: 10px;
+}
+.section{
+    display: flex;
+}
+.left-section>p{
+    font-size: x-large;
+}
+.left-section{
+    width: 950px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.right-section{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.blessings {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: brown;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.blessings:hover{
+    transform: translate(-5px,10px);
+}
+.cards{
+    display: flex;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 5px solid black;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 5px solid black;
+}
+.card3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 5px solid black;
+}
+.card4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 5px solid black;
+}
+.card5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 5px solid black;
+}
+.card6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(231, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 5px solid black;
+}
+footer {
+    background-color: rgba(165, 42, 42, 0.9); /* brown to match other elements */
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif; /* matched site font */
+    color: white; /* matched text color used elsewhere */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid rgb(231, 0, 0); /* red border to match cards */
+    z-index: 100;
+    backdrop-filter: blur(5px);
+}
+
+@keyframes slideIn {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
