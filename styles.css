@@ -146,20 +146,6 @@ img{
     font-size: x-large;
     border: 5px solid black;
 }
-footer {
-    background-color: rgba(165, 42, 42, 0.9); /* brown to match other elements */
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-    font-family: 'Times New Roman', Times, serif; /* matched site font */
-    color: white; /* matched text color used elsewhere */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-top: 2px solid rgb(231, 0, 0); /* red border to match cards */
-    z-index: 100;
-    backdrop-filter: blur(5px);
-}
 
 @keyframes slideIn {
     0% { transform: translateX(100%); }
